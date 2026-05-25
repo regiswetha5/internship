@@ -1,2 +1,2 @@
-# internship
-internship malar software solution
+# Internship
+Internship Malar Software Solution
