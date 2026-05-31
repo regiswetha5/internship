@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+
+<head>
+    <style>
+        body {
+            background: #050816;
+            color: white;
+            font-family: Arial, sans-serif;
+        }
+
+        .about {
+            display: flex;
+            gap: 20px;
+            align-items: center;
+            padding: 30px;
+        }
+
+        img {
+            width: 45%;
+            border-radius: 10px;
+        }
+
+        .content {
+            width: 55%;
+        }
+
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 10px;
+            margin: 15px 0;
+        }
+
+        .box {
+            background: #111827;
+            padding: 15px;
+            border-radius: 8px;
+        }
+
+        button {
+            width: 100%;
+            padding: 12px;
+            border: none;
+            border-radius: 8px;
+            background: #2dd4bf;
+            color: white;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>About Me</h1>
+    <p>A passionate engineer dedicated to solving complex problems.</p>
+
+    <div class="about">
+        <img src="images/engineer.jpeg" >
+
+        <div class="content">
+            <h2>Professional Engineer</h2>
+            <p>Dedicated engineering student with strong technical and problem-solving skills.</p>
+
+            <div class="stats">
+                <div class="box"><b>Education</b><br>B.E Engineering</div>
+                <div class="box"><b>Experience</b><br>3+ Years</div>
+                <div class="box"><b>Projects</b><br>10+ Completed</div>
+                <div class="box"><b>Awards</b><br>5 Recognitions</div>
+            </div>
+
+            <button>Learn More →</button>
+        </div>
+    </div>
+
+</body>
+
+</html>
